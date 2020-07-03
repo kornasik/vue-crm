@@ -1,0 +1,5 @@
+export enum FORM_TYPES {
+  CREATE_PATIENT = 1,
+  MAKE_VISIT = 2,
+  MAKE_ANAMNESIS = 3
+}

@@ -1,0 +1,79 @@
+{
+  "name": "crm-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@types/lodash.clonedeep": "^4.5.6",
+    "@types/chart.js": "^2.9.14",
+    "@types/vuelidate": "^0.7.9",
+    "axios": "^0.19.0",
+    "buefy": "^0.8.8",
+    "chart.js": "^2.9.3",
+    "core-js": "^3.4.3",
+    "lodash.clonedeep": "^4.5.0",
+    "vue": "^2.6.10",
+    "vue-chartkick": "^0.6.0",
+    "vue-class-component": "^7.0.2",
+    "vue-date-pick": "^1.2.1",
+    "vue-i18n": "^8.15.3",
+    "vue-multiselect": "^2.1.6",
+    "vue-notification": "^1.3.20",
+    "vue-property-decorator": "^8.3.0",
+    "vue-router": "^3.1.3",
+    "vuedraggable": "^2.23.2",
+    "vuelidate": "^0.7.4",
+    "vuelidate-property-decorators": "^1.0.28",
+    "vuetify": "^2.1.0",
+    "vuex": "^3.1.2",
+    "vuex-class": "^0.3.2"
+  },
+  "devDependencies": {
+    "@types/vue-i18n": "^7.0.0",
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-plugin-router": "^4.1.0",
+    "@vue/cli-plugin-typescript": "^4.1.0",
+    "@vue/cli-plugin-vuex": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "@vue/eslint-config-typescript": "^4.0.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.13.1",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
+    "typescript": "~3.5.3",
+    "vue-cli-plugin-vuetify": "^2.0.2",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.3.0"
+  },
+  "eslintConfig": {
+    "root": false,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/prettier",
+      "@vue/typescript"
+    ],
+    "rules": {
+      "no-console": 0,
+      "no-debugger": 0,
+      "no-eq-null": 0
+    },
+    "parserOptions": {
+      "parser": "@typescript-eslint/parser"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
