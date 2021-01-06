@@ -11,7 +11,7 @@
     "@types/lodash.clonedeep": "^4.5.6",
     "@types/chart.js": "^2.9.14",
     "@types/vuelidate": "^0.7.9",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "buefy": "^0.8.8",
     "chart.js": "^2.9.3",
     "core-js": "^3.4.3",
